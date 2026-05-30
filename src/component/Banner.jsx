@@ -40,8 +40,7 @@ const Banner = () => {
     const BannerArr = [
         { id: 1, BannerImg: "/assets/img/one.jpg" },
         { id: 2, BannerImg: "/assets/img/two.jpg" },
-        { id: 3, BannerImg: "/assets/img/three.jpg" },
-        { id: 4, BannerImg: "/assets/img/four.jpg" },
+        { id: 3, BannerImg: "/assets/img/three.jpg" }, 
     ];
 
     return (

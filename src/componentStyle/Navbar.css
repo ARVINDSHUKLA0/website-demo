@@ -1,3 +1,28 @@
 .navbar{
     background-color: red;
 }
+.left-logo{
+    height: 80px !important;
+    width: 70px;
+}
+
+
+@media (max-width: 991px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 302px;
+        padding-left: 0px;
+        height: 100vh;
+        background:#631f14d3;
+        z-index: 999; 
+        transition: all 0.4s ease;
+    }
+
+    .show-menu {
+        left: 0%;
+       padding-left: 10px;
+       padding-right: 2px;
+       
+    }}
